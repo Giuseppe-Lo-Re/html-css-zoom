@@ -29,6 +29,7 @@ body {
 ul {
     list-style-type: none;
 }
+
 li {
     padding: 10px;
     text-align: center;
@@ -38,16 +39,21 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+.paddingtop-text {
+    padding-top: 8px;
+}
 /* END COMMON */
 
 
 /* HEADER */
 header {
     height: 80px;
-    /* position: fixed;
+    width: 100%;
+    position: fixed;
     top: 0;
     right: 0;
-    z-index: 50; */
+    z-index: 50;
     background-color: black;
 }
 
@@ -104,17 +110,23 @@ main {
 footer {
     height: 100px;
 
-/* test */
 background-color: #222222;  
 }
 
 .zoom-controls {
     font-size: 12px;
+    justify-content: space-between;
+    height: 100%;
+    /* line-height: 100px; */
+}
+
+.green {
+    color:#4cc802 ;
 }
 
 .end-meeting {
     width: 80px;
-    height: 120px;
+    height: 100px;
     position: relative;
     background-color: #4a4a4a;
 }
@@ -125,6 +137,6 @@ background-color: #222222;
     top: 50%;
     transform: translate(-50%, -50%);
     color: red;
-    
 }
+
 /* END FOOTER */
