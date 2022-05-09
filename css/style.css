@@ -21,9 +21,9 @@ body {
     display: flex;
 }
 
-.container-small {
-    width: 90%;
-    margin: 0 auto;
+.img {
+    max-width: 100%;
+    max-height: 100%;
 }
 /* END COMMON */
 
@@ -35,6 +35,7 @@ header {
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 50;
     background-color: black;
 }
 
@@ -55,8 +56,37 @@ header {
 /* MAIN */
 main {
     height: calc(100vh - 180px);
-/* test */
-background-color: lightcoral;
+    overflow-y: auto;
+}
+
+.card-container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 80px;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.card {
+    width: 250px;
+    height: 150px;
+    margin: 3px;
+
+    position: relative;
+    /* test */
+    /* background-color: lightskyblue; */
+    /* border: 1px solid red; */
+
+}
+
+.audio-controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color:#6a757f;
+    padding:5px;
+    margin-bottom: 4px;
+    font-size: 14px;
 }
 /* END MAIN */
 
