@@ -38,17 +38,12 @@ a {
 .paddingtop-text {
     padding-top: 8px;
 }
-
 /* END COMMON */
 
 
 /* HEADER */
 header {
     height: 80px;
-    /* position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 50; */
     background-color: black;
 }
 
@@ -62,7 +57,6 @@ header {
     padding: 5px;
     border-radius: 5px;
 }
-
 /* END HEADER */
 
 
@@ -72,7 +66,7 @@ main {
     overflow-y: auto;
 }
 
-.card-container {
+.cards-container {
     width: 90%;
     margin: 0 auto;
     padding-top: 80px;
