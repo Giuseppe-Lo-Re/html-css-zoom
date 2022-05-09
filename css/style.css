@@ -26,6 +26,8 @@ ul {
 li {
     padding: 10px;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 a {
@@ -124,17 +126,14 @@ background-color: #222222;
 
 .end-meeting {
     width: 90px;
-    /* height: 100px; */
     position: relative;
     background-color: #4a4a4a;
+    text-align: center;
 }
 
 .end-meeting a {
     color: red;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    line-height: 100px;
 }
 
 /* END FOOTER */
