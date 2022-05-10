@@ -124,9 +124,6 @@ li {
     position: relative;
     background-color: #4a4a4a;
     text-align: center;
-}
-
-.end-meeting a {
     color: red;
     line-height: 100px;
 }
